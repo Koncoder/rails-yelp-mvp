@@ -1,0 +1,11 @@
+<div class="card">
+  <h4><%= @restaurant.name %></h4>
+  <p><%= @restaurant.address %></p>
+  <p><%= @restaurant.phone_number %></p>
+  <p><%= @restaurant.category.capitalize %></p>
+  <%= link_to "Go back", restaurants_path, class: "btn btn-primary" %>
+</div>
+
+<div class="review_card">
+
+</div>
